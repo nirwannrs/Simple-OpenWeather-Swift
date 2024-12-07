@@ -1,0 +1,15 @@
+{
+  "originHash" : "11dd210e7e2826ec78d2c971fc75aa77ff96af164a9024d1f4899d88bb240516",
+  "pins" : [
+    {
+      "identity" : "iosdropdown",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/jriosdev/iOSDropDown.git",
+      "state" : {
+        "revision" : "945c4f1945ed37a31055e812a5ee11a3d06e88ab",
+        "version" : "0.4.0"
+      }
+    }
+  ],
+  "version" : 3
+}

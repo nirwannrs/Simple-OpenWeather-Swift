@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		80DD11A92D02E54500EA60ED /* iOSDropDown in Frameworks */ = {isa = PBXBuildFile; productRef = 80DD11A82D02E54500EA60ED /* iOSDropDown */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		80DD118A2D02D02500EA60ED /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -65,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80DD11A92D02E54500EA60ED /* iOSDropDown in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,6 +130,7 @@
 			);
 			name = Weather;
 			packageProductDependencies = (
+				80DD11A82D02E54500EA60ED /* iOSDropDown */,
 			);
 			productName = Weather;
 			productReference = 80DD11732D02D02300EA60ED /* Weather.app */;
@@ -208,6 +214,9 @@
 			);
 			mainGroup = 80DD116A2D02D02300EA60ED;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				80DD11A72D02E54500EA60ED /* XCRemoteSwiftPackageReference "iOSDropDown" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 80DD11742D02D02300EA60ED /* Products */;
 			projectDirPath = "";
@@ -292,6 +301,8 @@
 				DEVELOPMENT_TEAM = SX389R2N95;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Weather/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Nirwan's Weather App";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.weather";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -320,6 +331,8 @@
 				DEVELOPMENT_TEAM = SX389R2N95;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Weather/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Nirwan's Weather App";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.weather";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -569,6 +582,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		80DD11A72D02E54500EA60ED /* XCRemoteSwiftPackageReference "iOSDropDown" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jriosdev/iOSDropDown.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		80DD11A82D02E54500EA60ED /* iOSDropDown */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 80DD11A72D02E54500EA60ED /* XCRemoteSwiftPackageReference "iOSDropDown" */;
+			productName = iOSDropDown;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 80DD116B2D02D02300EA60ED /* Project object */;
 }
